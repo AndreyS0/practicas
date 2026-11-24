@@ -1,0 +1,51 @@
+body
+{
+    font-family:"Times New Roman", serif;
+    background:#f0f0f0;
+    margin:20px;
+}
+
+article
+{
+    max-width:900px;
+    margin:0 auto;
+}
+
+header
+{
+    background:#4a6fc7; /*azul*/
+    color:white;
+    text-align:center;
+    padding:30px;
+    border-radius:10px; /*bordes redondeados*/
+}
+
+section
+{
+    background:white;
+    margin:20px 0;
+    padding:15px 20px;
+    border-left:4px solid #5cd65c; /*linea verde a la izquierda*/
+}
+
+h2
+{
+    margin-top:0;
+}
+
+footer
+{
+    background:#6b6168; /*gris oscuro*/
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+}
+
+.redonda
+{
+    width:200px;
+    height:200px;
+    border-radius:50%; /*50% hace que la imagen quede en forma de circulo*/
+    object-fit:cover; /*recorta la imagen para que no se vea estirada*/
+}
